@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:green;
+        }
+
+        table, th, td {
+            width: 680px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align:left;
+            background-color:rgb(191, 230, 217);
+        }
+
+        th{
+            width: 20%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Phiếu đăng ký tham gia chương trình khuyến mại</h1>
+    <table align="left">
+        <tr>
+            <td>Họ và tên</td>
+            <td>
+                <form action="/action_page.php">
+                <input type="text" id="name" name="name" value="Nguyễn Ngọc Quỳnh Nga"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Địa chỉ</td>
+            <td>
+                <form action="/action_page.php">
+                <input type="text" id="address" name="address" value="2Bia Hùng Vương, Q10"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Điện thoại</td>
+            <td>
+                <form action="/action_page.php">
+                <input type="text" id="phone" name="phone" value="0909097506"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Phái</td>
+            <td>
+                <input type="checkbox" id="na" name="subject">
+                <label for="na">Nam</label>
+                <input type="checkbox" id="nu" name="subject">
+                <label for="nu">Nữ</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Nghề nghiệp</td>
+            <td>
+                <form action="/action_page.php">
+                    <select id="cars" name="cars">
+                      <option value="volvo">Giáo viên</option>              
+                    </select>
+                  </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td rowspan="4">Chọn sản phẩm tham gia</td>
+            <td style="background-color:blue;color:#FFFFFF">Kem đánh răng</td>                          
+        </tr>
+
+        <tr>
+            <td style="background-color:#FFFFFF">Bột giặt</td>
+        </tr>
+
+        <tr>          
+            <td style="background-color:blue;color:#FFFFFF">Dầu gội đầu</td>
+            
+        </tr>
+
+        <tr>           
+            <td style="background-color: #FFFFFF;">Sữa tắm </td> 
+        </tr>
+
+        <tr>
+            <td>Số người dự đoán tham gia</td>
+            <td>
+                <form action="/action_page.php">
+                <input type="text" id="dudoan" name="dudoan" value="250000"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align:center"> <input type="submit" value="Đồng ý">
+        </tr>
+
+        <tr>
+            <td style="text-align:center" colspan="2">Bạn đã đăng ký thành công!!!</td>
+        </tr>
+
+       
+
+    </table>
+    
+</body>
+</html>
