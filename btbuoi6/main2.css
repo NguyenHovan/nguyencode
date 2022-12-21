@@ -1,0 +1,44 @@
+h1 {
+    color: #0d9e0d;
+    text-align: center;
+}
+
+.mngreen {
+    background-color: #97e997;
+    font-size:large;
+    font-style: normal;
+}
+
+.cot1 {
+    display: inline-block;
+    width: 25%;
+    font-size: 20px;
+    vertical-align: middle;
+    color: #008000;
+}
+
+.cot2 {
+    display: inline-block;
+    width: 25%;
+    font-size: 20px;
+    vertical-align: middle;
+    color: #07a607;
+}
+
+
+.list-product {
+    font-size: 0;
+}
+
+.opsion {
+    display: inline-block;
+    width: 25%;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.succes {
+    color: #FF1493;
+    font-size: 20px;
+    text-align: center;
+}

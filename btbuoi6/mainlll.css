@@ -1,0 +1,12 @@
+h1 {
+    color:brown;
+}
+
+.light-blue {
+    background-color: #65c4d7;
+    font-size:large;
+    font-style: normal;
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+}
