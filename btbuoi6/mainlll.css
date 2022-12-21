@@ -6,6 +6,10 @@ h1 {
     background-color: #65c4d7;
     font-size:large;
     font-style: normal;
+}
+
+.list-product{
+
     display: inline-block;
     width: 25%;
     vertical-align: middle;
