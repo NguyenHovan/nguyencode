@@ -1,44 +1,218 @@
+*{
+    box-sizing: border-box;
+}
 h1 {
-    color: #0d9e0d;
+    color: #72ed72;
     text-align: center;
 }
 
 .mngreen {
-    background-color: #97e997;
-    font-size:large;
-    font-style: normal;
+    width: 655px;
+    font-size: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b7edb7;
+    border: 1px solid #006400;
 }
-
-.cot1 {
+.name1 {
+    width: 35%;
+    height: 25px;
+    padding: 2px;
+    font-size: 16px;
+    line-height: 24px;
     display: inline-block;
-    width: 25%;
-    font-size: 20px;
     vertical-align: middle;
+    border-right: 1px solid #006400;
+    border-bottom: 1px solid #006400;
     color: #008000;
 }
 
-.cot2 {
+.name2 {
+    width: 65%;
+    height: 25px;
+    padding: 2px;
     display: inline-block;
-    width: 25%;
-    font-size: 20px;
     vertical-align: middle;
-    color: #07a607;
+    border-bottom: 1px solid #006400;
 }
 
-
-.list-product {
-    font-size: 0;
-}
-
-.opsion {
+.address1{
+    width: 35%;
+    height: 25px;
+    padding: 2px;
+    font-size: 16px;
+    line-height: 24px;
     display: inline-block;
-    width: 25%;
-    font-size: 20px;
     vertical-align: middle;
+    border-right: 1px solid #006400;
+    border-bottom: 1px solid #006400;
+    color: #008000;
 }
 
-.succes {
-    color: #FF1493;
-    font-size: 20px;
+.address2{
+    width: 65%;
+    height: 25px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid #006400;
+}
+
+.phone1{
+    width: 35%;
+    height: 25px;
+    padding: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid #006400;
+    border-bottom: 1px solid #006400;
+    color: #008000;
+}
+
+.phone2{
+    width: 65%;
+    height: 25px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid #006400;   
+}
+
+.address1{
+    width: 35%;
+    height: 25px;
+    padding: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid #006400;
+    border-bottom: 1px solid #006400;
+    color: #008000; 
+}
+
+.address2{
+    width: 65%;
+    height: 25px;
+    padding: 2px;
+    display: inline-block;
+}
+
+.derivative1{
+    width: 35%;
+    height: 25px;
+    padding: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid #006400;
+    border-bottom: 1px solid #006400;
+    color: #008000; 
+}
+
+.derivative2{
+    width: 65%;
+    height: 25px;
+    padding: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid #006400;
+}
+
+.job1{
+    width: 35%;
+    height: 25px;
+    padding: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid #006400;
+    border-bottom: 1px solid #006400;
+    color: #008000; 
+}
+
+.job2{
+    width: 65%;
+    height: 25px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid #006400;
+}
+
+
+table, td, th{
+    width: 40%;
+    height:18px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.product1{
+    width: 35%;
+    height: 80px;
+    padding: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid #006400;
+    border-bottom: 1px solid #006400;
+    color: #008000; 
+}   
+
+.product2{
+    width: 65%;
+    height: 80px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid #006400;
+}
+
+.guess1{
+    width: 35%;
+    height: 25px;
+    padding: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid #006400;
+    border-bottom: 1px solid #006400;
+    color: #008000; 
+}   
+
+.guess2{
+    width: 65%;
+    height: 25px;
+    padding: 2px;
+    line-height: 24px;
+    display:inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid #006400;
+}
+
+
+.agree{
+    width:100%;
     text-align: center;
+    border-bottom: 1px solid #006400;
+    display: inline-block;
+
+}
+.succes{
+    display:inline-block;
+    width:100%;
+    text-align: center;
+    color:rgb(217, 44, 73);
+    font-size: 16px;
+
 }
